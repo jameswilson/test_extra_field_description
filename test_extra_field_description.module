@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the Test Extra Field Description feature.
+ */
+
+include_once 'test_extra_field_description.features.inc';
+
+/**
+ * Implements hook_init().
+ */
+function test_extra_field_description_init() {
+
+  // Add some styles to make our testing easier.
+  drupal_add_css(drupal_get_path('module', 'test_extra_field_description') . '/test_extra_field_description.css');
+}
