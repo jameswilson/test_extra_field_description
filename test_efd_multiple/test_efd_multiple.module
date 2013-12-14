@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Test Extra Field Description feature.
+ */
+
+include_once 'test_efd_multiple.features.inc';
